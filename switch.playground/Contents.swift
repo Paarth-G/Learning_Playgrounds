@@ -7,12 +7,9 @@ var tempF = 70;
 
 var isFreezing : Bool = true;
 
-if tempF <= 32
-{
-    isFreezing = true;
-}
-else
-{
+if tempF <= 32{
+    isFreezing = true
+}else{
     isFreezing = false
 }
 
@@ -29,8 +26,7 @@ print(isFreezing)
 var number = 0
 var numberString = "one"
 
-switch number
-{
+switch number{
     case 0:
         numberString = "zero"
         break;
