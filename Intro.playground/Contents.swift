@@ -17,3 +17,5 @@ let MyOtherName = 7;
 var s: double_t = 55
 
 var a: String = "Hello World"
+
+print("Sweet Music")
